@@ -1,5 +1,6 @@
+ var i = 1;
+
 function takeANumber(arr){
-  var i = 1;
   i++;
   arr.push(i);
 return ('Welcome. You are number ' + i +  ' in line.');
