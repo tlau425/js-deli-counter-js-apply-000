@@ -1,6 +1,8 @@
 function takeANumber(arr){
-  arr.push(name);
-return ('Welcome, ' + name + '. You are number ' + (arr.indexOf(name)+1) + ' in line.');
+  var i = 1;
+  i++;
+  arr.push(i);
+return ('Welcome. You are number ' + i +  ' in line.');
 
 }
 
