@@ -1,4 +1,4 @@
-function takeANumber(arr, name){
+function takeANumber(arr){
   arr.push(name);
 return ('Welcome, ' + name + '. You are number ' + (arr.indexOf(name)+1) + ' in line.');
 
@@ -26,3 +26,4 @@ function currentLine(line){
   } else
   return ('The line is currently:' + newArr);
 }
+
